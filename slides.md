@@ -26,7 +26,7 @@ note:
 
 --
 
-![Message Types](./images/Misc/Message%20Types.png)
+![Message Types](images/Misc/Message%20Types.png)
 
 note:
     <li> An [event](https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services#event) is a lightweight notification of a condition or a state change.
@@ -35,7 +35,7 @@ note:
 --
 
 ## Storage Queues
-![Storage Queue](images\Misc\storage-queue1.png)
+![Storage Queue](images/Misc/storage-queue1.png)
 
 - Part of Azure Storage
 - Large storage capacity
@@ -80,7 +80,7 @@ subscription1 ~ subscriptionN
 
 <!-- .slide: data-auto-animate -->
 ## Azure Service Bus Queues
-![Service Bus Queue](images\Misc\service-bus-queue.png)
+![Service Bus Queue](images/Misc/service-bus-queue.png)
 - Push-Pull semantics
 - Ordered and timestamped
 - Multiple senders and multiple receivers/consumers
@@ -98,7 +98,7 @@ note:
 
 <!-- .slide: data-auto-animate -->
 ## Azure Service Bus Topics
-![Service Bus Topics](images\Misc\service-bus-topic.png)
+![Service Bus Topics](images/Misc/service-bus-topic.png)
 - Push-Pull semantics
 - Ordered and timestamped
 - Multiple publishers and multiple subscribers
@@ -175,7 +175,7 @@ subscription1 ~ subscriptionN
 
 <!-- .slide: data-auto-animate -->
 ## Event Hubs
-![Event Hubs Architecture](images\Misc\event-hubs-architecture.svg)
+![Event Hubs Architecture](images/Misc/event-hubs-architecture.svg)
 
 
 note: Speaker notes
@@ -196,7 +196,7 @@ note: Speaker notes
 
 <!-- .slide: data-auto-animate -->
 
-![Event Hubs Architecture](images\Misc\event-hubs-architecture.svg){width="50%"}
+![Event Hubs Architecture](images/Misc/event-hubs-architecture.svg){width="50%"}
 
 - Push-Push processing model
 - Multiple simultaneous consumers
@@ -218,7 +218,7 @@ note: Speaker notes
 <!-- .slide: data-auto-animate -->
 ## Event Hub Namespaces
 
-![Event Hubs Namespace](images\Misc\event-hubs-namespace.png)
+![Event Hubs Namespace](images/Misc/event-hubs-namespace.png)
 
 note:
     Speaker notes
@@ -230,7 +230,7 @@ note:
 
 <!-- .slide: data-auto-animate -->
 ## Event Publishing
-![Event Publishing](images\Misc\partition-keys.png)
+![Event Publishing](images/Misc/partition-keys.png)
 
 note:
     <li> Partition keys can optionally be specified
@@ -240,7 +240,7 @@ note:
 
 <!-- .slide: data-auto-animate -->
 ## Event Hubs Partitions
-![Event Hubs Partitions](images\Misc\event-hubs-multiple-partitions.png)
+![Event Hubs Partitions](images/Misc/event-hubs-multiple-partitions.png)
 
 note:
     <li> A partition can be thought of as a "commit log".
@@ -257,7 +257,7 @@ note:
 
 <!-- .slide: data-auto-animate -->
 ## Event Hubs Consumer Groups
-![Event Hubs Architecture](images\Misc\event-hubs-architecture.svg)
+![Event Hubs Architecture](images/Misc/event-hubs-architecture.svg)
 
 note:
     <li> A consumer group is a **view** of the entire event hub.
@@ -267,7 +267,7 @@ note:
 
 <!-- .slide: data-auto-animate -->
 ## Event Hubs Checkpoint
-![Event Hubs Checkpoint](images\Misc\event-hubs-partition-offset.png)
+![Event Hubs Checkpoint](images/Misc/event-hubs-partition-offset.png)
 
 note:
     <li>Checkpointing is a process by which readers mark or commit their position within a partition event sequence.
@@ -277,7 +277,7 @@ note:
 
 <!-- .slide: data-auto-animate -->
 ## Event Capture
-![Event Publishing](images\Misc\event-hubs-capture.png)
+![Event Publishing](images/Misc/event-hubs-capture.png)
 
 note:
     <li> Data is captured to blob storage/data lake
@@ -298,7 +298,7 @@ note:
 
 ## Event Grid
 
-![Event Grid](images\Misc\functional-model-big.png)
+![Event Grid](images/Misc/functional-model-big.png)
 
 note:
     <li> Event Grid is an eventing backplane that enables event-driven, reactive programming. It uses the publish-subscribe model. Publishers emit events, but have no expectation about how the events are handled. Subscribers decide on which events they want to handle.
@@ -310,7 +310,7 @@ note:
 <!-- .slide: data-auto-animate -->
 ## Event Grid
 
-![Event Grid](images\Misc\functional-model-big.png){width="50%"}
+![Event Grid](images/Misc/functional-model-big.png){width="50%"}
 
 - Dynamically scalable
 - Low cost
