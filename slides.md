@@ -343,6 +343,18 @@ note:
 note:
     <li> Subscription endpoints sometimes route to more than one handler. Subscriptions are also used by handlers to intelligently filter incoming events.
 
+--
+
+## Receive Events from Partner
+![Event Grid](images/Misc/receive-events-from-partner.png){width="75%"}
+
+
+--
+
+## Send Events to Partner
+![Event Grid](images/Misc/send-events-to-partner.png){width="75%"}
+
+
 ---
 
 # The following slides are Works in Progress
